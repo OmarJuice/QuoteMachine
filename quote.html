@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="quote.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="body">
+
+    <div id="quote-box" class="container">
+        <button class="button" id="quoteButton"><a id="new-quote" href="">New Quote</a></button>
+        <div id="quoteContainer">
+        <h1 id="fullQuote"><span><i class="fas fa-quote-left colored left"></i></span> <i id="spinner" class="fas fa-spinner colored"></i> <p class="colored" id="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, aperiam? </p> <span><i class="fas fa-quote-right colored right"></i></span></h1>
+        <span id="authorSpan"><i class="fas fa-cat fa-3x colored"></i><h3 id="author" class="colored"></h3></span>
+        </div>
+        <div>
+        <span><button class="button" id="tweet"><a href="https://twitter.com/intent/tweet" id="tweet-quote" target="_blank"><i class="fab fa-twitter fa-2x"></i></a> </button><button class="button" id="tumblr"> <a href="#" id="tumblr-quote" target="_blank"><i class="fab fa-tumblr fa-2x"></i></a> </button></span>
+        </div>
+    </div>
+    </div>
+
+    <script src="quote.js"></script>
+</body>
+</html>

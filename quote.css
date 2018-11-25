@@ -1,0 +1,90 @@
+body{
+    background-color: lightblue;
+    transition: all 2s;
+
+}
+#body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    
+    width: 33%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    border-radius: 10px;
+}
+#text{
+    font-family: 'Indie flower', sans-serif;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: beige !important;
+}
+#authorSpan{
+    float: right;
+    margin-right: 10%;
+}
+#author{
+    display: none;
+}
+#quoteButton{
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+    z-index: 1;
+}
+.left, .right{
+    position: relative;
+    transition: all .5s;
+}
+#spinner{
+    display: none;
+}
+
+.button{
+    background-color: lightblue;
+    height: 50px;
+    width: 81px;
+    border-radius: 100%;
+    color: beige;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 2s;
+}
+.button:hover{
+    border: none;
+}
+#tweet, #tumblr{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#quoteContainer{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+#fullQuote{
+    margin: 0 20px;
+}
+@media only screen and (max-width: 1000px){
+    
+    .container{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        width: 80%;
+    }
+    .left{
+        margin-left: 95px;
+    }
+}
